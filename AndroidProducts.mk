@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The BeastROMs Project
+# Copyright (C) 2018 The Superior Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/beast_kenzo.mk
+    $(LOCAL_DIR)/superior_kenzo.mk
