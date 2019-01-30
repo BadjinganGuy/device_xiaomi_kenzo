@@ -1,5 +1,5 @@
 #
-# Copyright 2018 The BeastRoms Project
+# Copyright 2018 The Colt Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,13 +17,16 @@
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 # Inherit some common BeastRoms  stuff.
-$(call inherit-product, vendor/beast/config/common.mk)
+$(call inherit-product, vendor/colt/common.mk)
+
+#Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080x1920
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := beast_kenzo
+PRODUCT_NAME := colt_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi

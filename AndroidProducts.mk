@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/beast_kenzo.mk
+    $(LOCAL_DIR)/colt_kenzo.mk

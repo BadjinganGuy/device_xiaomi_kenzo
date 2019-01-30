@@ -1,3 +1,3 @@
-add_lunch_combo beast_kenzo-user
-add_lunch_combo beast_kenzo-userdebug
-add_lunch_combo beast_kenzo-eng
+add_lunch_combo colt_kenzo-user
+add_lunch_combo colt_kenzo-userdebug
+add_lunch_combo colt_kenzo-eng
