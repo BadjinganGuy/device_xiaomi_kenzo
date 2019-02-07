@@ -1,5 +1,6 @@
 #
 # Copyright 2018 The Superior Project
+# Copyright 2018 The Fred Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,14 +17,22 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-# Inherit some common Superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+TARGET_ARCH := arm64
+TARGET_DENSITY := xhdpi
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Inherit some common Fred stuff.
+$(call inherit-product, vendor/fred/config/common.mk)
+
+# Maintainer Prop.
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fred.maintainer=#BadjinganGuy
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := superior_kenzo
+PRODUCT_NAME := fred_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi

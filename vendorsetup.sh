@@ -1,3 +1,3 @@
-add_lunch_combo superior_kenzo-user
-add_lunch_combo superior_kenzo-userdebug
-add_lunch_combo superior_kenzo-eng
+add_lunch_combo fred_kenzo-user
+add_lunch_combo fred_kenzo-userdebug
+add_lunch_combo fred_kenzo-eng
