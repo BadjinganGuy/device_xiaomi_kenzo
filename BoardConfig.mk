@@ -41,6 +41,7 @@ TARGET_QCOM_MEDIA_VARIANT := caf-msm8952
 
 # Sepolicy
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
 
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
