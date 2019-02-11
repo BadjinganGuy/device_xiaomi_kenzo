@@ -1,3 +1,3 @@
-add_lunch_combo syberia_kenzo-user
-add_lunch_combo syberia_kenzo-userdebug
-add_lunch_combo syberia_kenzo-eng
+add_lunch_combo bootleg_kenzo-user
+add_lunch_combo bootleg_kenzo-userdebug
+add_lunch_combo bootleg_kenzo-eng
